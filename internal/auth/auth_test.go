@@ -21,7 +21,7 @@ func TestAuth(t *testing.T) {
 		},
 		{
 			name:       "Correct API Header",
-			headers:    http.Header{"Authorization": []string{"ApiKeye gurbe"}},
+			headers:    http.Header{"Authorization": []string{"ApiKey gurbe"}},
 			wantApiKey: "gurbe",
 			wantErr:    false,
 		},
